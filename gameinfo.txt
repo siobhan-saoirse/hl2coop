@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 "GameInfo"
 {
 	game 		"Half-Life 2: Cooperative"
@@ -97,3 +98,8 @@
 		}
 	}
 }
+=======
+version https://git-lfs.github.com/spec/v1
+oid sha256:321ef178480ae8f00caef406dfe6c98c48b08f7fb4f857fb4a3ebc6f478e8da6
+size 4659
+>>>>>>> Stashed changes

@@ -9,4 +9,12 @@ materials/temp/*
 cfg/user.scr
 cfg/user.scr
 cfg/user.scr
-vpks*
+<<<<<<< Updated upstream
+vpks/*
+=======
+vpks/hl2coop.privatekey.vdf
+vpks/hl2coop.publickey.vdf
+vpks/pak01/*
+>>>>>>> Stashed changes
+vpks/pak01_dir.vpk
+vpks/pak01_000.vpk

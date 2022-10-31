@@ -1,0 +1,17 @@
+If you're willing to add valvebiped playermodels you must put them in a folder named 'player' in the models folder.
+If you're willing to add ported legacy/goldsrc playermodels you must put them in a folder named 'goldsrc' and 'player' in the models folder.
+Ill of the models in those folders can be accessed with cl_playermodel in the developer console.
+
+If animations aren't working, you can try adding these to the QC file:
+
+// if the model is male then use the one below this line
+
+$includemodel m_anm.mdl
+
+// if the model is female then use the one below this line
+
+$includemodel f_anm.mdl
+
+// if the model is a zombie then use the one below this line
+
+$includemodel z_anm.mdl
