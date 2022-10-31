@@ -3,7 +3,6 @@ download/*
 downloadlists/*
 *.sfk
 *.sav
-maps/graphs/cs_office.ain
-maps/graphs/de_dust2.ain
-maps/graphs/coop_sandbox.ain
-maps/graphs/intro.ain
+maps/graphs/*
+user_custom/*
+materials/temp/*
