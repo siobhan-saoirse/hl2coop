@@ -1,2 +1,3 @@
 Playermodel selector fix by jora_: https://gamebanana.com/mods/35036
 Playermodel animations by robotboy655 & Facepunch: https://github.com/robotboy655/gmod-animations
+Fast Zombie playermodel by Facepunch

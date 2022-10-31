@@ -100,7 +100,7 @@ DESCRIPTION INFO_OPTIONS
 			"medic_male_08" "models/humans/group03m/male_08.mdl"
 			"medic_male_09" "models/humans/group03m/male_09.mdl"
 			"zombie"		"models/zombie/classic.mdl"
-			"fast_zombie"		"models/zombie/fast.mdl"
+			"fast_zombie"		"models/player/zombie_fast.mdl" // the only model that doesn't use the npc model
 			"zombie_soldier (HL2 EP1 REQUIRED)"		"models/zombie/zombie_soldier.mdl"
 		}
 
