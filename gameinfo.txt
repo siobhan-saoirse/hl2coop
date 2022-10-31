@@ -44,18 +44,19 @@
 			// folder.
 			//
 			// Note that this folder is scanned only when the game is booted.
-			gamebin				|gameinfo_path|custom/*
+			game+mod				|gameinfo_path|custom/*
 
 			// Now search loose files.  We'll set the directory containing the gameinfo.txt file
 			// as the first "mod" search path (after any user customizations).  This is also the one
 			// that's used when writing to the "mod" path.
-			game+mod+mod_write+default_write_path		|gameinfo_path|.
+			game+game_write+mod+mod_write+default_write_path		|gameinfo_path|.
 			gamebin				|gameinfo_path|bin
 
 			// We search VPK files before ordinary folders, because most files will be found in
 			// VPK and we can avoid making thousands of file system calls to attempt to open files
 			// in folders where they don't exist.  (Searching a VPK is much faster than making an operating
 			// system call.)
+			game		|gameinfo_path|.
 			game_lv				hl2/hl2_lv.vpk
 			game				|all_source_engine_paths|episodic/ep1_english.vpk
 			game				|all_source_engine_paths|episodic/ep1_pak.vpk
