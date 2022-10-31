@@ -101,7 +101,6 @@ DESCRIPTION INFO_OPTIONS
 			"medic_male_09" "models/humans/group03m/male_09.mdl"
 			"zombie"		"models/zombie/classic.mdl"
 			"fast_zombie"		"models/zombie/fast.mdl"
-			"poison_zombie"		"models/zombie/poison.mdl"
 			"zombie_soldier (HL2 EP1 REQUIRED)"		"models/zombie/zombie_soldier.mdl"
 		}
 
