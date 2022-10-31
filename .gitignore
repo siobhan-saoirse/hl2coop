@@ -10,6 +10,7 @@ cfg/user.scr
 cfg/user.scr
 cfg/user.scr
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 vpks/*
 =======
 vpks/hl2coop.privatekey.vdf
@@ -18,3 +19,10 @@ vpks/pak01/*
 >>>>>>> Stashed changes
 vpks/pak01_dir.vpk
 vpks/pak01_000.vpk
+=======
+vpks/hl2coop.privatekey.vdf
+vpks/hl2coop.publickey.vdf
+vpks/pak01/*
+>>>>>>> Stashed changes
+ep1_gamestats.dat
+demoheader.tmp
