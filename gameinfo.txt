@@ -1,12 +1,13 @@
 "GameInfo"
 {
 	game 		"Half-Life 2: Cooperative"
-	title 		"HALF-LIFE'"
+	title 		""
 	title2		""
 	nomodels 0
 	nohimodel 1
 	nocrosshair 1
 	supportsvr	0
+	gamelogo	1
 
 	type		multiplayer_only
 

@@ -1,16 +1,19 @@
 // load the base configuration
 //exec default.cfg
-
 // Setup custom controller
 exec joystick.cfg
 
 // run a user script file if present
 exec autoexec.cfg
+exec config.cfg // syn test
 
 //
 // stuff command line statements
 //
 stuffcmds
 
-// FOR XBOX CERT
-sv_unlockedchapters 99
+//startupmenu
+
+//play music/HL2_Song0.mp3
+//play music/HL2_song23_SuitSong3.mp3
+//play music/radio1.mp3
