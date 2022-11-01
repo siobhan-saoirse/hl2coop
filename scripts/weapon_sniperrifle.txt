@@ -3,13 +3,13 @@
 WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
-	"printname"		"#HL2_Annabelle"
+	"printname"		"#HL2COOP_SniperRifle"
 	"viewmodel"		"models/weapons/v_shotgun.mdl"
-	"playermodel"		"models/weapons/w_annabelle.mdl"
+	"playermodel"		"models/weapons/w_crossbow.mdl"
 	"anim_prefix"		"shotgun"
 	"bucket"			"5"
-	"bucket_position"		"1"
-	"clip_size"		"2"
+	"bucket_position"		"16"
+	"clip_size"		"1"
 	"primary_ammo"		"357"
 	"secondary_ammo"	"None"
 
@@ -21,13 +21,13 @@ WeaponData
 	{
 
 		"empty"				"Weapon_Shotgun.Empty"
-		"reload"			"Weapon_Shotgun.Reload"
+		"reload"			"NPC_Sniper.Reload"
 		"special1"			"Weapon_Shotgun.Special1"
-		"single_shot"		"Weapon_Shotgun.Single"
+		"single_shot"		"NPC_Sniper.FireBullet"
 		"double_shot"		"Weapon_Shotgun.Double"
 		// NPC WEAPON SOUNDS
-		"reload_npc"		"Weapon_Shotgun.NPC_Reload"
-		"single_shot_npc"	"Weapon_Shotgun.NPC_Single"
+		"reload_npc"		"NPC_Sniper.Reload"
+		"single_shot_npc"	"NPC_Sniper.FireBullet"
 	}
 
 	// Weapon Sprite data is loaded by the Client DLL.

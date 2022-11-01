@@ -76,12 +76,10 @@
 			game			"E:/SteamLibrary/steamapps/common/Half-Life 2/Half-Life 2/hl2"
 			game			"E:/SteamLibrary/steamapps/common/Half-Life 2/Half-Life 2/episodic"
 			game			"E:/SteamLibrary/steamapps/common/Half-Life 2/Half-Life 2/ep2"
-			game+mod			"E:/SteamLibrary/steamapps/common/Half-Life 2/episodic/ep1_english.vpk"
-			game+mod			"E:/SteamLibrary/steamapps/common/Half-Life 2/episodic/ep1_pak.vpk"
-			game+mod			"E:/SteamLibrary/steamapps/common/Half-Life 2/ep2/ep2_english.vpk"
-			game+mod			"E:/SteamLibrary/steamapps/common/Half-Life 2/ep2/ep2_pak.vpk"
-			game+mod			"E:/SteamLibrary/steamapps/common/Half-Life 2/Half-Life 2/ep2/ep2_english.vpk"
-			game+mod			"E:/SteamLibrary/steamapps/common/Half-Life 2/Half-Life 2/ep2/ep2_pak.vpk"
+			game			"E:/SteamLibrary/steamapps/common/Half-Life 2/episodic/ep1_english.vpk"
+			game			"E:/SteamLibrary/steamapps/common/Half-Life 2/episodic/ep1_pak.vpk"
+			game			"E:/SteamLibrary/steamapps/common/Half-Life 2/ep2/ep2_english.vpk"
+			game			"E:/SteamLibrary/steamapps/common/Half-Life 2/ep2/ep2_pak.vpk"
 
 			// Random files downloaded from gameservers go into a seperate directory, so
 			// that it's easy to keep those files segregated from the official game files
