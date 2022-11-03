@@ -1,0 +1,8 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models/Weapons/V_hand/v_hand_sheet"
+	"$model" 		1
+	"$translucent" 	1
+	"$vertexalpha" 	1
+	"$vertexcolor" 	1
+}

@@ -69,13 +69,13 @@
 			game			|all_source_engine_paths|hl2
 			game			|all_source_engine_paths|hl2mp
 			platform			|all_source_engine_paths|platform
-			game "|all_source_engine_paths|..\..\..\common\Half-Life 2\ep2\ep2_sound_vo_english.vpk"	
-			game "|all_source_engine_paths|..\..\..\common\Half-Life 2\ep2\ep2_pak.vpk"
-			game "|all_source_engine_paths|..\..\..\common\Half-Life 2\episodic\ep1_pak.vpk"
-			game "|all_source_engine_paths|..\..\..\common\Half-Life 2\episodic\ep1_sound_vo_english.vpk"
-			game "|all_source_engine_paths|..\..\..\common\Half-Life 2\ep2"	
-			game "|all_source_engine_paths|..\..\..\common\Half-Life 2\episodic"
-			game "|all_source_engine_paths|..\..\..\common\Half-Life 2\hl2"
+			game "sourcetest\..\..\..\common\Half-Life 2\ep2\ep2_sound_vo_english.vpk"	
+			game "sourcetest\..\..\..\common\Half-Life 2\ep2\ep2_pak.vpk"
+			game "sourcetest\..\..\..\common\Half-Life 2\episodic\ep1_pak.vpk"
+			game "sourcetest\..\..\..\common\Half-Life 2\episodic\ep1_sound_vo_english.vpk"
+			game "sourcetest\..\..\..\common\Half-Life 2\ep2"	
+			game "sourcetest\..\..\..\common\Half-Life 2\episodic"
+			game "sourcetest\..\..\..\common\Half-Life 2\hl2"
 
 			// Random files downloaded from gameservers go into a seperate directory, so
 			// that it's easy to keep those files segregated from the official game files
