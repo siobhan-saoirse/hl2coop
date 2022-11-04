@@ -35,18 +35,17 @@
 		//
 		SearchPaths
 		{
-			// First, mount all user customizations.  This will search for VPKs and subfolders
+			// Firstly, mount all user customizations.  This will search for VPKs and subfolders
 			// and mount them in alphabetical order.  The easiest way to distribute a mod is to
 			// pack up the custom content into a VPK.  To "install" a mod, just drop it in this
 			// folder.
-			//
 			// Note that this folder is scanned only when the game is booted.
-			game+mod				|gameinfo_path|custom/*
+			game+mod			|gameinfo_path|custom/*
 
-			// Now search loose files.  We'll set the directory containing the gameinfo.txt file
-			// as the first "mod" search path (after any user customizations).  This is also the one
-			// that's used when writing to the "mod" path.
-			game+mod+mod_write+default_write_path		|gameinfo_path|.
+			// Search game's files after any user customizations. This is also where any writes should go.
+			game+game_write+mod+mod_write+default_write_path		|gameinfo_path|.
+
+			// Where the game's binaries are.
 			gamebin				|gameinfo_path|bin
 
 			// We search VPK files before ordinary folders, because most files will be found in
@@ -65,18 +64,55 @@
 			game			|all_source_engine_paths|hl2mp/hl2mp_english.vpk
 			game			|all_source_engine_paths|hl2mp/hl2mp_pak.vpk
 			// Last, mount in shared HL2 loose files
-			game				|all_source_engine_paths|episodic
 			game			|all_source_engine_paths|hl2
 			game			|all_source_engine_paths|hl2mp
 			platform			|all_source_engine_paths|platform
-			game "sourcetest\..\..\..\common\Half-Life 2\ep2\ep2_sound_vo_english.vpk"	
-			game "sourcetest\..\..\..\common\Half-Life 2\ep2\ep2_pak.vpk"
-			game "sourcetest\..\..\..\common\Half-Life 2\episodic\ep1_pak.vpk"
-			game "sourcetest\..\..\..\common\Half-Life 2\episodic\ep1_sound_vo_english.vpk"
-			game "sourcetest\..\..\..\common\Half-Life 2\ep2"	
-			game "sourcetest\..\..\..\common\Half-Life 2\episodic"
-			game "sourcetest\..\..\..\common\Half-Life 2\hl2"
 
+			//=======================================
+			//Valve Game Search Paths
+			//=======================================
+			//SecobMod__Mount our additional games here
+			//This allows you to use other content in your games and load some maps from other games (but some maps crash to desktop, and portal2 maps can't be loaded due to version mismatch).
+			
+			//Episode 2	
+			game "|gameinfo_path|..\..\common\Half-Life 2\ep2\ep2_sound_vo_english.vpk"	
+			game "|gameinfo_path|..\..\common\Half-Life 2\ep2\ep2_pak.vpk"
+
+			//Half-Life Source
+			game "|gameinfo_path|..\..\common\Half-Life 2\hl1_hd\hl1_hd_pak.vpk"
+			game "|gameinfo_path|..\..\common\Half-Life 2\hl1\hl1_sound_vo_english.vpk"
+			game "|gameinfo_path|..\..\common\Half-Life 2\hl1\hl1_pak.vpk"
+			
+			//Counter Strike Source
+			game "|gameinfo_path|..\..\common\Counter-Strike Source\cstrike"
+			game "|gameinfo_path|..\..\common\Counter-Strike Source\cstrike\cstrike_english.vpk"
+			game "|gameinfo_path|..\..\common\Counter-Strike Source\cstrike\cstrike_pak.vpk"
+			
+			//Portal1
+			game "|gameinfo_path|..\..\common\Portal\portal"
+			game "|gameinfo_path|..\..\common\Portal\portal\portal_pak.vpk"
+
+			//Episode1
+			game "|gameinfo_path|..\..\common\Half-Life 2\episodic\ep1_pak.vpk"
+			game "|gameinfo_path|..\..\common\Half-Life 2\episodic\ep1_sound_vo_english.vpk"
+			
+			//Team Fortress 2
+			game "|gameinfo_path|..\..\common\Team Fortress 2\tf"
+			game "|gameinfo_path|..\..\common\Team Fortress 2\tf\tf2_textures.vpk"
+			game "|gameinfo_path|..\..\common\Team Fortress 2\tf\tf2_sound_vo_english.vpk"
+			game "|gameinfo_path|..\..\common\Team Fortress 2\tf\tf2_sound_misc.vpk"
+			game "|gameinfo_path|..\..\common\Team Fortress 2\tf\tf2_misc.vpk"
+		
+				
+			//SecobMod__If we want to load any official maps from any Valve .vpk enabled game we add the folder paths to them here.
+			game "|gameinfo_path|..\..\common\Half-Life 2\ep2"	
+			game "|gameinfo_path|..\..\common\Half-Life 2\episodic"
+			game "|gameinfo_path|..\..\common\Half-Life 2\hl2"
+			game "|gameinfo_path|..\..\common\Half-Life 2\hl1"
+			game "|gameinfo_path|..\..\common\portal\portal"
+			game "|gameinfo_path|..\..\common\Team Fortress 2\tf"
+			game "|gameinfo_path|..\..\common\Counter-Strike Source\cstrike"
+			
 			// Random files downloaded from gameservers go into a seperate directory, so
 			// that it's easy to keep those files segregated from the official game files
 			// or customizations intentially installed by the user.
