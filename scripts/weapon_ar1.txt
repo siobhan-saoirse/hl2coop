@@ -4,8 +4,8 @@ WeaponData
 {
 	// Weapon data is loaded by both the Game and Client DLLs.
 	"printname"	"#HL2COOP_AR1"
-	"viewmodel"				"models/weapons/v_smg1.mdl"
-	"playermodel"			"models/weapons/w_smg1.mdl"	//FIXME: 
+	"viewmodel"				"models/weapons/v_rif_ak47.mdl"
+	"playermodel"			"models/weapons/w_rif_ak47.mdl"	//FIXME: 
 	"anim_prefix"			"smg2"
 	"bucket"				"2"
 	"bucket_position"		"2"
@@ -24,6 +24,8 @@ WeaponData
 	"weight"				"3"
 	"rumble"			"3"
 	"item_flags"			"0"
+	"BuiltRightHanded" "0"
+	"AllowFlipping"    "1"
 
 	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
 	SoundData
