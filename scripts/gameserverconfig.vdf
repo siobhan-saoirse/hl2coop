@@ -1,0 +1,55 @@
+// HL2DM DEDICATED SERVER CONFIGURATION SPECIFICATION FOR GUI
+"GameServerConfig"
+{
+	"hostname"
+	{
+		"name"	"Server Name"
+		"type"	"string"
+	}
+	"maxplayers"
+	{
+		"name"	"Max Players (Set to 1 if SP)"
+		"type"	"string"
+	}
+	"hl2_use_hl2mp_footsteps"
+	{
+		"name" "HL2MP Footsteps"
+		"type" "enumeration"
+		"list"
+		{
+			"0" "Disabled"
+			"1" "Enabled"
+		}
+	}
+	"mp_friendlyfire"
+	{
+		"name"	"Friendly Fire"
+		"type"	"enumeration"
+		"list"
+		{
+			"0" "Disabled"
+			"1" "Enabled"
+		}
+	}
+	"hl2_episodic"
+	{
+		"name"	"Episodic Behaviour"
+		"type"	"enumeration"
+		"list"
+		{
+			"1" "Enabled"
+			"0" "Disabled"
+		}
+	}
+	"skill"
+	{
+		"name"	"Difficulty"
+		"type"	"enumeration"
+		"list"
+		{
+			"1" "Easy"
+			"2" "Normal"
+			"3" "Hard"
+		}
+	}
+}

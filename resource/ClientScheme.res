@@ -508,6 +508,19 @@ Scheme
 				"yres"		"1 10000"
 			}
 		}
+		WeaponIconsSmall
+		{
+			"1"
+			{
+				"name"		"HalfLife2"
+				"tall"		"36" [$DECK]
+				"tall"		"32"
+				"weight"	"0"
+				"antialias" "1"
+				"additive"	"1"
+				"custom"	"1"
+			}
+		}
 		FlashlightDeck
 		{
 			"1"
