@@ -1,0 +1,284 @@
+
+"NPC_HoundEye.Idle"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/houndeye/he_idle1.wav"
+		"wave"		"npc/hl1/houndeye/he_idle2.wav"
+		"wave"		"npc/hl1/houndeye/he_idle3.wav"
+
+	}
+}
+
+"NPC_HoundEye.Hunt"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/houndeye/he_hunt1.wav"
+		"wave"		"npc/hl1/houndeye/he_hunt2.wav"
+		"wave"		"npc/hl1/houndeye/he_hunt3.wav"
+
+	}
+}
+
+
+"NPC_HoundEye.Alert"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_85db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/houndeye/he_alert1.wav"
+		"wave"		"npc/hl1/houndeye/he_alert2.wav"
+		"wave"		"npc/hl1/houndeye/he_alert3.wav"
+
+	}
+}
+
+"NPC_HoundEye.Die"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_85db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/houndeye/he_die1.wav"
+		"wave"		"npc/hl1/houndeye/he_die2.wav"
+		"wave"		"npc/hl1/houndeye/he_die3.wav"
+
+	}
+}
+
+"NPC_HoundEye.Pain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/houndeye/he_pain3.wav"
+		"wave"		"npc/hl1/houndeye/he_pain4.wav"
+		"wave"		"npc/hl1/houndeye/he_pain5.wav"
+
+	}
+}
+
+"NPC_HoundEye.Anger1"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_90db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/houndeye/he_pain3.wav"
+	}
+}
+
+"NPC_HoundEye.Anger2"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_90db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/houndeye/he_pain1.wav"
+
+	}
+}
+
+"NPC_HoundEye.SonicAttack"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_140db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/houndeye/he_blast1.wav"
+		"wave"		"npc/hl1/houndeye/he_blast2.wav"
+		"wave"		"npc/hl1/houndeye/he_blast3.wav"
+
+	}
+}
+
+"NPC_HoundEye.Warn"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/houndeye/he_hunt1.wav"
+		"wave"		"npc/hl1/houndeye/he_hunt2.wav"
+		"wave"		"npc/hl1/houndeye/he_hunt3.wav"
+
+	}
+}
+
+"NPC_HoundEye.WarmUp"
+{
+	"channel"	"CHAN_WEAPON"
+	"volume"	"0.7"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/houndeye/he_attack1.wav"
+		"wave"		"npc/hl1/houndeye/he_attack3.wav"
+
+	}
+}
+
+"NPC_Bullsquid.Idle"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_75dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/bullchicken/bc_idle1.wav"
+		"wave"		"npc/hl1/bullchicken/bc_idle2.wav"
+		"wave"		"npc/hl1/bullchicken/bc_idle3.wav"
+		"wave"		"npc/hl1/bullchicken/bc_idle4.wav"
+		"wave"		"npc/hl1/bullchicken/bc_idle5.wav"
+	}
+}
+
+"NPC_Bullsquid.Pain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"		"85,120"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/bullchicken/bc_pain1.wav"
+		"wave"		"npc/hl1/bullchicken/bc_pain2.wav"
+		"wave"		"npc/hl1/bullchicken/bc_pain3.wav"
+		"wave"		"npc/hl1/bullchicken/bc_pain4.wav"
+	}
+}
+
+"NPC_Bullsquid.Alert"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"		"140,160"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/bullchicken/bc_idle1.wav"
+		"wave"		"npc/hl1/bullchicken/bc_idle2.wav"
+	}
+}
+
+"NPC_Bullsquid.Death"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/bullchicken/bc_die1.wav"
+		"wave"		"npc/hl1/bullchicken/bc_die2.wav"
+		"wave"		"npc/hl1/bullchicken/bc_die3.wav"
+	}
+}
+
+"NPC_Bullsquid.Attack1"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_100dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/bullchicken/bc_attack2.wav"
+		"wave"		"npc/hl1/bullchicken/bc_attack3.wav"
+	}
+}
+
+"NPC_Bullsquid.Bite"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/bullchicken/bc_bite2.wav"
+		"wave"		"npc/hl1/bullchicken/bc_bite3.wav"
+	}
+}
+
+"NPC_Bullsquid.WhipSound"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"		"85,120"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/bullchicken/bc_attackgrowl.wav"
+		"wave"		"npc/hl1/bullchicken/bc_attackgrowl2.wav"
+		"wave"		"npc/hl1/bullchicken/bc_attackgrowl3.wav"
+	}
+}
+
+"NPC_Bullsquid.TailWhip"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/zombie/claw_miss1.wav"	
+		"wave"		"npc/zombie/claw_miss2.wav"	
+	}
+}
+
+"NPC_Bullsquid.TailWhipHit"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_85dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/zombie/claw_strike1.wav"	
+		"wave"		"npc/zombie/claw_strike2.wav"	
+		"wave"		"npc/zombie/claw_strike3.wav"	
+	}
+}
+
+"NPC_Bullsquid.Growl"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"	"SNDLVL_80dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/bullchicken/bc_attackgrowl.wav"
+		"wave"		"npc/hl1/bullchicken/bc_attackgrowl2.wav"
+		"wave"		"npc/hl1/bullchicken/bc_attackgrowl3.wav"
+	}
+}
