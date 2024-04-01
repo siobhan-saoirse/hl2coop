@@ -10,7 +10,7 @@
 		"wave"		"npc/hl1/houndeye/he_idle1.wav"
 		"wave"		"npc/hl1/houndeye/he_idle2.wav"
 		"wave"		"npc/hl1/houndeye/he_idle3.wav"
-
+		"wave"		"npc/hl1/houndeye/he_idle4.wav"
 	}
 }
 
@@ -45,6 +45,26 @@
 	}
 }
 
+
+"NPC_HoundEye.SpeakSentence"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_85db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/houndeye/he_idle1.wav"
+		"wave"		"npc/hl1/houndeye/he_idle2.wav"
+		"wave"		"npc/hl1/houndeye/he_idle3.wav"
+		"wave"		"npc/hl1/houndeye/he_idle4.wav"
+		"wave"		"npc/hl1/houndeye/he_alert1.wav"
+		"wave"		"npc/hl1/houndeye/he_alert2.wav"
+		"wave"		"npc/hl1/houndeye/he_alert3.wav"
+
+	}
+}
+
 "NPC_HoundEye.Die"
 {
 	"channel"	"CHAN_VOICE"
@@ -68,7 +88,51 @@
 	"pitch"		"PITCH_NORM"
 	"rndwave"
 	{
+		"wave"		"npc/hl1/houndeye/he_pain1.wav"
+		"wave"		"npc/hl1/houndeye/he_pain2.wav"
 		"wave"		"npc/hl1/houndeye/he_pain3.wav"
+		"wave"		"npc/hl1/houndeye/he_pain4.wav"
+		"wave"		"npc/hl1/houndeye/he_pain5.wav"
+
+	}
+}
+
+"NPC_HoundEye.GroupAttack"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/houndeye/he_pain1.wav"
+		"wave"		"npc/hl1/houndeye/he_pain3.wav"
+
+	}
+}
+
+"NPC_HoundEye.GroupFollow"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"		"npc/hl1/houndeye/he_pain1.wav"
+		"wave"		"npc/hl1/houndeye/he_pain3.wav"
+
+	}
+}
+
+"NPC_HoundEye.Retreat"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"VOL_NORM"
+	"soundlevel"	"SNDLVL_80db"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
 		"wave"		"npc/hl1/houndeye/he_pain4.wav"
 		"wave"		"npc/hl1/houndeye/he_pain5.wav"
 
@@ -117,7 +181,7 @@
 
 "NPC_HoundEye.Warn"
 {
-	"channel"	"CHAN_VOICE"
+	"channel"	"CHAN_STATIC"
 	"volume"	"0.7"
 	"soundlevel"	"SNDLVL_80db"
 	"pitch"		"PITCH_NORM"
