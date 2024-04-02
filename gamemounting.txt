@@ -62,7 +62,7 @@
 			"local"			"sourcetest/sourcetest_pak.vpk"
 			
 			"dedicated"			"sourcetest"
-			"dedicated"			"sourcetest/sourcetest_pak.vpk""
+			"dedicated"			"sourcetest/sourcetest_pak.vpk"
 		}
 	}
 
