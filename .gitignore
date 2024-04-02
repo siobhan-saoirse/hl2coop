@@ -15,6 +15,8 @@ ep1_gamestats.dat
 ep2_gamestats.dat
 hl2_gamestats.dat
 demoheader.tmp
+GameState.txt
+ServerConfig.vdf
 vpks/hl2coop.privatekey.vdf
 vpks/hl2coop.publickey.vdf
 vpks/pak01/*
