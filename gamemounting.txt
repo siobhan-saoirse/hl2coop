@@ -1,0 +1,110 @@
+"gamemounting.txt"
+{
+	"Half-Life 2"	[!$DEDICATED]
+	{
+		"appid"		"220"
+		"required"	"1"
+		
+		"paths"
+		{
+			"local"		"hl2/hl2_misc_dir.vpk"
+			"local"		"hl2/hl2_sound_misc_dir.vpk"
+			"local"		"hl2/hl2_sound_vo_english_dir.vpk"
+			"local"		"hl2/hl2_textures_dir.vpk"
+			"local"		"hl2/hl2_pak_dir.vpk"
+			"local"		"hl2"
+		}
+	}
+	
+	"Half-Life 2: Episode Two"	[!$DEDICATED]
+	{
+		"appid"		"420"
+		"required"	"0"
+		
+		"paths"
+		{
+			"localep2"		"ep2"
+			"localep2"		"ep2/ep2_sound_vo_english.vpk"
+			"localep2"		"ep2/ep2_pak.vpk"
+			
+			"dedicated"		"ep2"
+			"dedicated"		"ep2/ep2_sound_vo_english.vpk"
+			"dedicated"		"ep2/ep2_pak.vpk"
+		}
+	}
+
+	"Half-Life 2: Episode One"	[!$DEDICATED]
+	{
+		"appid"		"380"
+		"required"	"0"
+		
+		"paths"
+		{
+			"localep1"		"episodic"
+			"localep1"		"episodic/ep1_sound_vo_english.vpk"
+			"localep1"		"episodic/ep1_pak.vpk"
+			
+			"dedicated"		"episodic"
+			"dedicated"		"episodic/ep1_sound_vo_english.vpk"
+			"dedicated"		"episodic/ep1_pak.vpk"
+		}
+	}
+
+	"Half-Life 2"	[$DEDICATED]
+	{
+		"appid"		"220"
+		"required"	"0"
+		
+		"paths"
+		{
+			"dedicated"		"hl2/hl2_misc_dir.vpk"
+			"dedicated"		"hl2/hl2_sound_misc_dir.vpk"
+			"dedicated"		"hl2/hl2_sound_vo_english_dir.vpk"
+			"dedicated"		"hl2/hl2_textures_dir.vpk"
+			"dedicated"		"hl2/hl2_pak_dir.vpk"
+			"dedicated"		"hl2"
+			"dedicated"		"hl1/hl1_sound_vo_english_dir.vpk"
+			"dedicated"		"hl1/hl1_pak_dir.vpk"
+			"dedicatedep2"		"ep2"
+			"dedicatedep2"		"ep2/ep2_sound_vo_english_dir.vpk"
+			"dedicatedep2"		"ep2/ep2_pak_dir.vpk"
+			"dedicatedep1"		"episodic"
+			"dedicatedep1"		"episodic/ep1_sound_vo_english_dir.vpk"
+			"dedicatedep1"		"episodic/ep1_pak_dir.vpk"
+		}
+	}
+
+	"Half-Life 2: Lost Coast"	[!$DEDICATED]
+	{
+		"appid"		"340"
+		"required"	"0"
+		
+		"paths"
+		{
+			"local"			"lostcoast"
+			"local"			"lostcoast/lostcoast_sound_vo_english.vpk"
+			"local"			"lostcoast/lostcoast_pak.vpk"
+			
+			"dedicated"		"lostcoast"
+			"dedicated"		"lostcoast/lostcoast_sound_vo_english.vpk"
+			"dedicated"		"lostcoast/lostcoast_pak.vpk"
+		}
+	}
+
+	"Portal"
+	{
+		"appid"		"400"
+		"required"	"0"
+		
+		"paths"
+		{                                                
+			"local"                 "portal/portal_sound_vo_english_dir.vpk"
+			"local"			"portal/portal_pak_dir.vpk"
+			"local"			"portal"
+			
+			"dedicated"             "portal/portal_sound_vo_english_dir.vpk"
+			"dedicated"		"portal/portal_pak_dir.vpk"
+			"dedicated"		"portal"
+		}
+	}
+}
