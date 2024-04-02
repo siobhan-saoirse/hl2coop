@@ -66,4 +66,19 @@
 			"dedicated"		"lostcoast/lostcoast_pak.vpk"
 		}
 	}
+
+	"Source SDK Base 2013 Multiplayer"
+	{
+		"appid"		"243750"
+		"required"	"0"
+		
+		"paths"
+		{
+			"local"			"sourcetest"
+			"local"			"sourcetest/sourcetest_pak.vpk"
+			
+			"dedicated"			"sourcetest"
+			"dedicated"			"sourcetest/sourcetest_pak.vpk""
+		}
+	}
 }

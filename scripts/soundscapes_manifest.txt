@@ -22,5 +22,4 @@ soundscapes_manifest
 	"file"		"scripts/soundscapes_silo.txt"
 	"file"		"scripts/soundscapes_outland.txt"	
 	"file"		"scripts/soundscapes_outland2.txt"
-
 }
