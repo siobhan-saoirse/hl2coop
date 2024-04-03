@@ -1,3 +1,8 @@
 # Half-Life 2 Cooperative
-This is the early access version of the game. Report some bugs to the discord or the github repo.
+
+## Not to be confused with Synergy.
+
+This mod is a freeware, simple, and more optimized experience. It is designed to be a lightweight, more easier experience of a cooperative multiplayer mod that uses the singleplayer episodic code and MP engine.
+It was going to be released on steam as a private, standalone game but i've scrapped that idea entirely.
+
 
