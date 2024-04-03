@@ -411,8 +411,8 @@
 	"pitch"		"PITCH_NORM"
 	"rndwave"
 	{
-		"wave"		"npc/bullchicken/bite2.wav"
-		"wave"		"npc/bullchicken/bite3.wav"
+		"wave"		"npc/bullsquid/bite2.wav"
+		"wave"		"npc/bullsquid/bite3.wav"
 	}
 }
 
